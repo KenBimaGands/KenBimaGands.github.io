@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+.caption img {
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px black;
+}
+.navbar-fixed {
+    font-weight: 700 !important;
+    font-family:'Josefin Sans', sans-serif;;
+}
+.caption h2{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 700 !important;
+    filter: drop-shadow(2px 4px 4px black);
+}
+.mark {
+    font-size: smaller;
+    margin-top: -40px ;
+}
+.caption h5{
+    filter: drop-shadow(2px 2px 4px  black);
+    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke-width: 1px;
+}
+.services h3{
+    background-color: black;
+    padding-top: 5px;
+    color:white;
+    font-weight: 800;
+    filter: drop-shadow(2px 2px 4px  black);
+}
+.card-panel {
+    box-shadow: 2px 2px 2px 2px black;
+}
+.about, .crs {
+    padding-bottom: 10px;
+    padding-top: 10PX;
+}
+.crs .container {
+    box-shadow: 2px 4px 2px 2px black;
+}
+.services {
+    padding-bottom: 10px;
+    background-image: url(../img/Stroke\ Raster.jpeg);
+    background-attachment: fixed ;
+}
