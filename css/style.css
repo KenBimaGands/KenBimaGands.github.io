@@ -48,3 +48,33 @@
     background-image: url(../img/Stroke\ Raster.jpeg);
     background-attachment: fixed ;
 }
+.contacts {
+    height: 300px;
+}
+.contacts .row {
+    display: flex;
+  justify-content: center
+}
+.contacts .row .col {
+    margin-top: 50px   ;
+     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.contacts .row .col:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    background-color: #0077B5;
+}
+.contacts .row .col .fa{
+    color: black;
+    padding-top: 24px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.contacts .row .col a{
+    color: white;
+}
